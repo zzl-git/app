@@ -1804,7 +1804,7 @@ input[type='submit']:enabled:active, input[type='submit'].mui-active:enabled,
 
 .mui-badge
 {
-    font-size: 12px;
+    font-size: 2px;
     line-height: 1;
 
     display: inline-block;
@@ -1812,7 +1812,7 @@ input[type='submit']:enabled:active, input[type='submit'].mui-active:enabled,
     padding: 3px 6px;
 
     color: #333;
-    border-radius: 100px;
+   border-radius: 100px;
     background-color: rgba(0, 0, 0, .15);
 }
 .mui-badge.mui-badge-inverted
@@ -1880,7 +1880,7 @@ input[type='submit']:enabled:active, input[type='submit'].mui-active:enabled,
 
 .mui-icon .mui-badge
 {
-    font-size: 10px;
+    font-size: 2px;
     line-height: 1.4;
 
     position: absolute;
@@ -2248,7 +2248,7 @@ input[type='submit']:enabled:active, input[type='submit'].mui-active:enabled,
 {
     position: relative;
 
-    overflow: hidden;
+   /* overflow: hidden; */
 
     padding: 11px 15px;
 
@@ -2290,7 +2290,7 @@ input[type='submit']:enabled:active, input[type='submit'].mui-active:enabled,
     position: relative;
 
     display: block;
-    overflow: hidden;
+   /* overflow: hidden; */
 
     margin: -11px -15px;
     padding: inherit;
@@ -2454,7 +2454,7 @@ input[type='submit']:enabled:active, input[type='submit'].mui-active:enabled,
     background-color: #c8c7cc;
 }
 
-.mui-table-view .mui-media,
+.mui-table-view,
 .mui-table-view .mui-media-body
 {
     overflow: hidden;
@@ -2778,7 +2778,7 @@ input[type='submit']:enabled:active, input[type='submit'].mui-active:enabled,
     border-right: 1px solid #eee;
     border-bottom: 1px solid #eee;
 }
-.mui-grid-view.mui-grid-9 .mui-table-view-cell.mui-active
+.mui-grid-view .mui-table-view-cell
 {
     background-color: #eee;
 }

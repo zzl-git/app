@@ -1,0 +1,42 @@
+.header_top {
+	background: #0062CC;
+	color: #fff;
+	padding-top: 10px;
+	/* height: 500px; */
+}
+.header_top .yewu {
+	background: none !important;
+	border: none !important;
+	color: #fff !important;
+}
+.header_top .yewu li {
+	border: none !important;
+}
+.header_top .mui-col-xs-2 {
+	text-align: center;
+}
+.sousuo {
+	display: flex;
+	height: 30px;
+	color: #ccc;
+	justify-content: space-between;
+}
+.sousuo input{
+	font-size: 14px;
+	border: none;
+	width: 70% !important;
+	height: 100% !important;
+}
+.sousuo .mui-col-xs-8 {
+	background: #fff;
+}
+.banner_mian {
+	border: none;
+}
+.banner_mian li {
+	border: none !important;
+	overflow: none !important;
+}
+.banner_mian .mui-icon {
+	font-size: 32px !important;
+}
