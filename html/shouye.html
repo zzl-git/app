@@ -6,16 +6,17 @@
 		<title></title>
 		<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
 		<link href="../css/mui.css" rel="stylesheet" />
-		<link rel="stylesheet" type="text/css" href="../css/index.css"/>
+		<link rel="stylesheet" type="text/css" href="../css/reset.css" />
+		<link rel="stylesheet" type="text/css" href="../css/index.css" />
 	</head>
 
 	<body>
 		<!-- 主页面内容容器 -->
-		<div class="mui-content mui-scroll-wrapper">
-			<div class="mui-scroll header_top">
+		<div class="mui-content">
+			<div class="header_top">
 				<!-- 主界面具体展示内容 -->
 				<div class="mui-row sousuo">
-		
+
 					<div class="mui-col-xs-8">
 						<span class="mui-icon mui-icon-search"></span>
 						<input type="text" placeholder="口碑">
@@ -43,7 +44,7 @@
 						</a></li>
 				</ul>
 			</div>
-			<div class="mui-content" style="margin-top: 150px;">
+			<div class="mui-content">
 				<ul class="mui-table-view mui-grid-view mui-grid-9 banner_mian">
 					<li class="mui-table-view-cell mui-media mui-col-xs-3 "><a href="#">
 							<span class="mui-icon mui-icon-home"></span>
@@ -95,17 +96,50 @@
 						</a></li>
 				</ul>
 			</div>
-		<div class="mui-content">
-			<a class="mui-icon mui-icon-arrowright mui-pull-right"></a>
-			<ul>
-				<li>你的全民保奖励红包可使用啦 <span>6小时前</span></li>
-				<li>你的全民保奖励红包可使用啦 <span>6小时前</span></li>
-			</ul>
-		</div>
+			<div class="" style="margin-top: 0;">
+			<div class="mui-scroll">
+			<div class="mui-content jifen">
+				<a class="mui-icon mui-icon-arrowright mui-pull-right"></a>
+				<ul>
+					<li>你的全民保奖励红包可使用啦 <span>6小时前</span></li>
+					<li>你的全民保奖励红包可使用啦 <span>6小时前</span></li>
+				</ul>
+			</div>
+			<div class="mui-slider">
+				<div class="mui-slider-group mui-slider-loop">
+					<!--支持循环，需要重复图片节点-->
+					<div class="mui-slider-item mui-slider-item-duplicate"><a href="#"><img src="../imgs/start_client_logo.png" /></a></div>
+					<div class="mui-slider-item"><a href="#"><img src="../imgs/start_client_logo.png" /></a></div>
+					<div class="mui-slider-item"><a href="#"><img src="../imgs/start_client_logo.png" /></a></div>
+					<div class="mui-slider-item"><a href="#"><img src="../imgs/start_client_logo.png" /></a></div>
+					<div class="mui-slider-item"><a href="#"><img src="../imgs/start_client_logo.png" /></a></div>
+					<!--支持循环，需要重复图片节点-->
+					<div class="mui-slider-item mui-slider-item-duplicate"><a href="#"><img src="../imgs/start_client_logo.png" /></a></div>
+				</div>
+			</div>
+			<div class="huizhifu">
+				<h2>惠支付</h2>
+				<div class="huizhifu_banner">
+					<div class="huizhifu_banner_left">
+						<h3>天天抽大奖</h3>
+						<p>手机现金免费抽</p>
+					</div>
+					<div class="huizhifu_banner_right">
+						<h3>天天抽大奖</h3>
+						<p>手机现金免费抽</p>
+					</div>
+				</div>
+			</div>
+			</div>
+			</div>
 		</div>
 		<script src="../js/mui.js"></script>
 		<script type="text/javascript">
 			mui.init()
+			var gallery = mui('.mui-slider');
+			gallery.slider({
+				interval: 1000 //自动轮播周期，若为0则不自动播放，默认为0；
+			});
 		</script>
 	</body>
 
