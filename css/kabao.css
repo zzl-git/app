@@ -1,0 +1,65 @@
+.kai {
+	width: 100%;
+}
+.kai h3 {
+	width: 100%;
+}
+.kai h3 a {
+	overflow: hidden;
+	/* background: pink; */
+}
+.kai h3 a span:nth-child(2){
+	color: #ccc;
+}
+.kai h3 a span:nth-child(1){
+	/* padding: 10px 0; */
+	padding-left: 25px;
+	background: url(../imgs/appicon.png) no-repeat;
+	background-size: 20px 100%;
+}
+.kai li {
+	height: 100px;
+	width: 80%;
+	/* margin-top: 15px; */
+	background: pink;
+	margin: 10px auto;
+	border-radius: 6px;
+	box-sizing: border-box;
+	padding-top: 15px;
+}
+.kai li>p {
+	padding-left: 20px;
+	font-size: 14px;
+	color: #fff;
+}
+.kai li p img {
+	width: 25px;
+	border-radius: 50%;
+	vertical-align: -10px;
+}
+.kai li small {
+	font-size: 10px;
+	color: #fff;
+	margin-top: 3px;
+}
+.kai ul:nth-child(4) li {
+	box-sizing: border-box;
+	padding-top: 30px;
+	color: #000000;
+	padding-left: 10px;
+}
+.kai ul li>img {
+	width: 25px;
+	border-radius: 50%;
+}
+.kai ul li>.juan_mian {
+	display: inline-block;
+}
+ .kai ul:nth-child(4) li h3 {
+	 font-size: 16px;
+	 font-weight: bold;
+ }
+ .kai ul:nth-child(4) li p {
+	 margin-top: 5px;
+	 color: #000000;
+ }

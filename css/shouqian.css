@@ -1,0 +1,70 @@
+.box {
+	text-align: center;
+	overflow: hidden;
+	background: #fff;
+}
+.box h3 {
+	width: 100%;
+	/* background: #00aaff; */
+	padding: 10px 0;
+	color: #007AFF;
+	background:#00aaff url(../imgs/appicon.png) no-repeat;
+	background-size: 15px 15px;
+	background-position: 120px center; 
+}
+.box p {
+	margin: 10px 0;
+	margin-bottom: 30px;
+	color: #000;
+}
+.box img {
+	width: 50%;
+}
+.box ul {
+	display: flex;
+	justify-content: space-between;
+	box-sizing: border-box;
+	padding: 0 100px;
+	margin: 30px 0;
+}
+.box ul li {
+	flex: 1;
+	text-align: center;
+	color: #0062CC;
+}
+.box ul li:nth-child(1){
+	border-right: 1px solid #ccc;
+}
+.box h4 {
+	width: 100%;
+	/* background: red; */
+	text-align: left;
+	margin: 0 10px;
+	border-top: 1px solid #ccc;
+}
+.box h4 span{
+	 font-size: 18px !important; 
+	
+}
+.fuwu {
+	margin-top: 15px;
+	background: #fff;
+	border-radius: 6px;
+	overflow: hidden;
+}
+.fuwu a {
+	display: flex;
+	justify-content: space-around;
+	
+}
+.fuwu small {
+	font-size: 14px;
+	margin-top: -5px;
+	padding: 10px 0;
+}
+.fuwu a>span {
+	color: #007AFF;
+}
+.fuwu a>small {
+	margin-left: 120px;
+}

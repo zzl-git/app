@@ -1,0 +1,31 @@
+.input_box input {
+	height: 10px;
+	font-size: 10px;
+}
+.input_box {
+	padding: 5px 10px 0 10px;
+}
+.input_box .mui-media-body{
+	height: auto !important;
+	text-overflow: none !important;
+}
+.input_box .mui-media-body small {
+	display: inline-block;
+	padding-top: 5px;
+}
+.liaotian {
+	margin-top: 10px;
+}
+.liaotian img {
+	margin-left: 20px;
+	width: 50%;
+	margin-top: 10px;
+	
+}
+.liaotian h4 {
+	font-weight: 500;
+}
+.liaotian small {
+	font-size: 10px;
+	color: #ccc;
+}

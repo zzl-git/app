@@ -1,0 +1,42 @@
+.my_box {
+	display: flex;
+	box-sizing: border-box;
+	padding: 10px 15px;
+	background: #007AFF;
+	color: #fff;
+	justify-content: space-between;
+}
+.my_box .my_mian {
+	padding-left: 10px;
+}
+.my_box p {
+	color: #fff;
+	background: #0062CC;
+	border-radius: 8px;
+	padding: 0 5px;
+}
+.my_box .my_box_right span {
+	margin-top: 15px;
+}
+.my_banner {
+	border-bottom: 1px solid #ccc;
+	padding: 5px 0px 5px 15px;
+	background: #fff;
+}
+.my_banner img {
+	height: 25px;
+	width: 25px;
+}
+.my_banner small {
+	margin-left: 85px;
+	color: #ccc;
+	text-align: right;
+}
+.my_banner big {
+	margin-left: 20px;
+	font-size: 16px;
+}
+.my_banner span {
+	font-size: 15px;
+	color: #ccc;
+}
